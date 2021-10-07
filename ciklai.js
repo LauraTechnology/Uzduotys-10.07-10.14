@@ -1,6 +1,7 @@
-// Ciklai
-// 
-// console.log’e, naudojant ciklą atspausdinti penkias eilutes ‘Labas’;
+ // console.log’e, naudojant ciklą atspausdinti penkias eilutes ‘Labas’;
+
+
+ 
 // console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skaičius 0 1 2 3 4 (vienas skaičius vienoje eilutėje);
 // console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skaičius 0 10 20 30 40 (vienas skaičius vienoje eilutėje);
 // console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skaičius 49 50 51 52 53 (vienas skaičius vienoje eilutėje);
