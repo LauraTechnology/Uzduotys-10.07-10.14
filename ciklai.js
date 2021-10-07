@@ -67,21 +67,20 @@ for (let i = 0; i < lyginiaiSkaiciai.length; i++) {
 console.log('-------------');
 
 
-// console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje);
+// 7. console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje);
+
+function getRandomNumber(max) {
+     return Math.floor(Math.random() * max);
+}
+
+console.log(getRandomNumber(10));
+console.log(getRandomNumber(10));
+console.log(getRandomNumber(10));
+console.log(getRandomNumber(10));
+console.log(getRandomNumber(10));
 
 
  
-
-
-
-
-
-
-
-
-
-
-
 
 
 
