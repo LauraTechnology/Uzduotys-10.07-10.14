@@ -6,7 +6,7 @@
     console.log('Labas');
     console.log('Labas');
 
- console.log('-------------');
+ console.log('-------2------');
 
 
 // 2. console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skaičius 0 1 2 3 4 (vienas skaičius vienoje eilutėje);
@@ -19,7 +19,7 @@
     console.log(skaiciai[3]);
     console.log(skaiciai[4]);
 
-console.log('-------------');
+console.log('-------3------');
 
 
 // 3. console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skaičius 0 10 20 30 40 (vienas skaičius vienoje eilutėje);
@@ -30,7 +30,7 @@ for (let i = 0; i < desimtys.length; i++ ) {
     console.log(desimtys[i]);
 }
 
-console.log('-------------');
+console.log('------4--------');
 
 
 // 4. console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skaičius 49 50 51 52 53 (vienas skaičius vienoje eilutėje);
@@ -42,7 +42,7 @@ for (let i = 0; i < dvigubiSkaiciai.length; i++ ) {
     console.log(dvigubiSkaiciai[i]);
 }
 
-console.log('-------------');
+console.log('-----5-------');
 
 
 // 5. console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skaičius 4 3 2 1 0 (vienas skaičius vienoje eilutėje);
@@ -54,7 +54,7 @@ for (let i = 0; i < skaiciaiReverse.length; i++ ) {
     console.log(skaiciaiReverse[i]);
 }
 
-console.log('-------------');
+console.log('-----6--------');
 
 
 // 6. console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skaičius 0 2 4 6 8 (vienas skaičius vienoje eilutėje, daugybos konsolėje nenaudoti!, if’ų nenaudoti, ciklas for);
@@ -64,7 +64,7 @@ for (let i = 0; i < lyginiaiSkaiciai.length; i++) {
     console.log(lyginiaiSkaiciai[i]);
 }
 
-console.log('-------------');
+console.log('------7-------');
 
 
 // 7. console.log’e, naudojant ciklą penkiose eilutėse atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje);
@@ -78,6 +78,7 @@ console.log(getRandomNumber(10));
 console.log(getRandomNumber(10));
 console.log(getRandomNumber(10));
 console.log(getRandomNumber(10));
+
 
 
  
