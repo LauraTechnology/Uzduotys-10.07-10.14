@@ -94,25 +94,35 @@ console.log(getRandomNumber2(25));
 
 
 // 8. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5;
- function getRandomNumberTask8(max) {
-     return Math.floor(Math.random() * max)
- }
+ //function getRandomNumberTask8(max) {
+ //    return Math.floor(Math.random() * max);
+ //}
+  
+function getRandomNumberTask8(max) {
+    return Math.floor(Math.random() * max);
+}
 
- console.log(getRandomNumberTask8(10));
- console.log(getRandomNumberTask8(10));
- console.log(getRandomNumberTask8(10));
- console.log(getRandomNumberTask8(10));
- console.log(getRandomNumberTask8(10));
- console.log(getRandomNumberTask8(10));
- console.log(getRandomNumberTask8(10));
+console.log(getRandomNumberTask8(10));
 
 
-
-
-
-
+ //console.log(getRandomNumberTask8(10));
+ //console.log(getRandomNumberTask8(10));
+ //console.log(getRandomNumberTask8(10));
+ //console.log(getRandomNumberTask8(10));
+ //console.log(getRandomNumberTask8(10));
+ //console.log(getRandomNumberTask8(10));
+ //console.log(getRandomNumberTask8(10));
+//
+//
 
 // 9. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių suma viršija 100;
+// function getRandomNumberTask9(max) {
+//     return Math.floor(Math.random() * max);
+// }
+// 
+// console.log();
+
+
 // 10. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5 arba 7; Suskaičiuoti kiek ciklų prasisuko;
 // 11. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių suma viršija 20, bet ne anksčiau nei po 11 ciklų;
 // 12. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklą kartoti kol bus sugeneruoti trys nelyginiai skaičiai;
