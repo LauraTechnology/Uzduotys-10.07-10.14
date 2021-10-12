@@ -123,17 +123,20 @@ let suma = 0;
 
 console.log('-----10-------');
 // 10. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5 arba 7; Suskaičiuoti kiek ciklų prasisuko;
-//let randomm;
-//
-//while (randomm !== 7) {
-//    randomm = Math.floor(Math.random() * 11)
-//    console.log(randomm)
-//} while (randomm !== 5) {
-//    randomm = Math.floor(Math.random() * 11)
-//    console.log(randomm)
-//}
+
+let randomm;
+
+while (randomm !== 7) {
+    randomm = Math.floor(Math.random() * 11)
+    console.log(randomm)
+} while (randomm !== 5) {
+    randomm = Math.floor(Math.random() * 11)
+    console.log(randomm)
+}
 
 
+
+// likusiems uzdaviniams naudoti operandus || (or) ir && (and)
 
 console.log('------11-------');
 // 11. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių SUMA viršija 20, bet ne anksčiau nei po 11 ciklų;
@@ -160,3 +163,5 @@ console.log('------14-------');
 console.log('------15-------');
 // 15. console.log’e, naudojant ciklą atspausdinti po porą skirtingų atsitiktinių skaičių nuo 0 iki 10 (abu skaičiai vienoje eilutėje). Ciklą kartoti kol bus sugeneruota po tris arba daugiau nelyginių skaičių.
 // 
+
+
