@@ -105,40 +105,54 @@ while (random !== 5) {
 
 //
 console.log('------9-------');
-// 9. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių suma viršija 100;
-// function getRandomNumberTask9(max) {
-//     return Math.floor(Math.random() * max);
-// }
-// 
-// console.log();
+// 9. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). 
+// Ciklas turi pasibaigti tada, kai atsitiktinių skaičių suma viršija 100;
 
+// atsitiktinių skaičių SUMA
 
+let suma = 0;
 
-
-
-
-
-
-
-
-
-
-
-
-
+ while (suma <= 100) {
+     random = Math.floor(Math.random() * 11)
+     console.log(random)
+     suma += random
+     console.log('suma yra', suma);
+ }
 
 
 
 console.log('-----10-------');
 // 10. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5 arba 7; Suskaičiuoti kiek ciklų prasisuko;
-
+//let randomm;
+//
+//while (randomm !== 7) {
+//    randomm = Math.floor(Math.random() * 11)
+//    console.log(randomm)
+//} while (randomm !== 5) {
+//    randomm = Math.floor(Math.random() * 11)
+//    console.log(randomm)
+//}
 
 
 
 console.log('------11-------');
-// 11. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių suma viršija 20, bet ne anksčiau nei po 11 ciklų;
+// 11. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių SUMA viršija 20, bet ne anksčiau nei po 11 ciklų;
+
+// let random11;
+
+//while () {
+//    random11 = Math.floor(Math.random() * 11)
+//    console.log(random11);
+//}
+//
+
 console.log('------12-------');
 // 12. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklą kartoti kol bus sugeneruoti trys nelyginiai skaičiai;
+
+
+
+
+
 console.log('------13-------');
 // 13. console.log’e, naudojant ciklą atspausdinti po porą skirtingų atsitiktinių skaičių nuo 0 iki 10 (abu skaičiai vienoje eilutėje). Ciklą kartoti tol, kol neiškris abu vienodi skaičiai;
 console.log('------14-------');
