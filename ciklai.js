@@ -126,20 +126,19 @@ console.log('-----10-------');
 
 let randomm;
 
-while (randomm !== 7) {
-    randomm = Math.floor(Math.random() * 11)
-    console.log(randomm)
-} while (randomm !== 5) {
+while (randomm !== 7 && randomm !== 5) {
     randomm = Math.floor(Math.random() * 11)
     console.log(randomm)
 }
 
 
 
-// likusiems uzdaviniams naudoti operandus || (or) ir && (and)
+// likusiems uzdaviniams naudoti operatorius || (or) ir && (and)
 
 console.log('------11-------');
 // 11. console.log’e, naudojant ciklą atspausdinti atsitiktinius skirtingus skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklas turi pasibaigti tada, kai atsitiktinių skaičių SUMA viršija 20, bet ne anksčiau nei po 11 ciklų;
+
+for (let i = 0; i < 11; i++) /*  kad  butu 11 ciklu */
 
 // let random11;
 
