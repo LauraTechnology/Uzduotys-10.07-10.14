@@ -108,11 +108,10 @@ let kiekCikluPrasisuko = 0;
 while (randomm !== 7 && randomm !== 5) {
   randomm = Math.floor(Math.random() * 11);
   console.log(randomm);
-  kiekCikluPrasisuko += 1
-  
+  kiekCikluPrasisuko += 1;
 }
 
-    console.log('ciklas prasisuko kartų :', kiekCikluPrasisuko);
+console.log("ciklas prasisuko kartų :", kiekCikluPrasisuko);
 
 // likusiems uzdaviniams naudoti operatorius || (or) ir && (and)
 
@@ -133,12 +132,22 @@ for (let i = 0; i < 11; i++) {
 console.log("------12-------");
 // 12. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje).              Ciklą kartoti kol bus sugeneruoti trys nelyginiai skaičiai;
 
-// random = Math.floor(Math.random() * 11)
+let kolLoginaTrisNelyginius = -1;
+
+for (let i = 0; i <= 10; i += 2) {
+  random = Math.floor(Math.random() * 11);
+  kolLoginaTrisNelyginius += 2;
+}
+
+console.log(kolLoginaTrisNelyginius);
+
+
 //
-// while (console.log(threeOddNumbers)) {
-//     random = Math.floor(Math.random() * 11)
+//random = Math.floor(Math.random() * 11);
 //
-// }
+//while (console.log(threeOddNumbers)) {
+//  random = Math.floor(Math.random() * 11);
+//}
 
 console.log("------13-------");
 // 13. console.log’e, naudojant ciklą atspausdinti PO PORĄ skirtingų atsitiktinių skaičių nuo 0 iki 10 (abu skaičiai vienoje eilutėje). Ciklą kartoti tol, kol neiškris abu vienodi skaičiai;
