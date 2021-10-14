@@ -100,6 +100,7 @@ console.log("-----10-------");
 // 10. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5 arba 7; Suskaičiuoti kiek ciklų prasisuko;
 
 //ka reikia padaryti kiekvieno ciklo metu, kad gautume kiek kartu prasisuko ciklas
+//kiekCikluPrasisuko
 
 let randomm;
 let kiekCikluPrasisuko = 0;
