@@ -51,6 +51,10 @@ for (let i = 0; i < 5; i++) {
   for (let i = 0; i <= 8; i += 2) {
     console.log(i);
   }
+
+  for (let i = 0; i <= 8; i += 2) {
+    console.log(i);
+  } 
   
   // for (let i = 0; i <= 40; i += 10) {
   //     console.log(i);
