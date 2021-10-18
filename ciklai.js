@@ -153,5 +153,5 @@ random = Math.floor(Math.random() * 11);
 
 
 console.log("------15-------");
-// 15. console.log’e, naudojant ciklą atspausdinti po porą skirtingų atsitiktinių skaičių nuo 0 iki 10 (abu skaičiai vienoje eilutėje).                 Ciklą kartoti kol bus sugeneruota po tris arba daugiau nelyginių skaičių.
+// 15. console.log’e, naudojant ciklą atspausdinti po porą skirtingų atsitiktinių skaičių nuo 0 iki 10 (abu skaičiai vienoje eilutėje). Ciklą kartoti kol bus sugeneruota po tris arba daugiau nelyginių skaičių.
 //
