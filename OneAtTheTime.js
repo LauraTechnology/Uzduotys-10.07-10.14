@@ -25,4 +25,29 @@
 //console.log(kolLoginaTrisNelyginius);
 
 
+/* 
+
+1. kiek kartų ciklas pagal užduotį turi prasisukti? 
+- Tiek kartų kol bus sugeneruoti 3 random nelyginiai skaičiai. 
+Pasiūlymas: naudoti while(), kurio sąlygoje tikrinti ar nelyginių skaičių dar nėra 3;
+
+2. kada pagal užduotį ciklas turi sustoti? 
+- kai bus sugeneruoti 3 random nelyginiai skaičiai;
+
+3. kas turi būti sugeneruojama kiekvieno ciklo metu? 
+- console.log(randomSkaiciausKintamaji).
+Pasiūlymas: ciklo viduje susikurti kintamajį kuris apskaičiuos random reikšmę nuo 0 iki 10;
+
+4. kas turi būti nelyginis? 
+- random nuo 0 iki 10 sugeneruotas skaičius. 
+Pasiūlymas: patikrinti ar nelyginis naudoti if() kiekvieno ciklo metu;
+
+5. kaip paskaičiuosi kiek nelyginių skaičių jau yra? 
+- kievieno ciklo metu pridėti vienetą prie kitamojo jei if'o sąlyga, kad tai nelyginis suveikia
+
+*/
+
+while () {
+  random = Math.floor(Math.random() * 11)
+}
 
