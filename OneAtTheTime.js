@@ -1,29 +1,8 @@
-// 12. console.log’e, naudojant ciklą atspausdinti 
-// skirtingus atsitiktinius 
-// skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje).              
-// Ciklą kartoti 
+// 12. console.log’e, naudojant ciklą atspausdinti
+// skirtingus atsitiktinius
+// skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje).
+// Ciklą kartoti
 // kol bus sugeneruoti trys nelyginiai skaičiai/ ciklas sukasi, kol rodo 3 nelyginius;
-
-1. - ciklas turi prasisukti 3 kartus
-  - mano ciklas prasisuka 1 karta
-  2. - ciklas turi sustoti tada, kai bus sugeneruoti 3 nelyginiai skaiciai
-     - mano ciklas sustoja ...
-     3. - kiekvieno ciklo metu turi buti sugeneruojamas nelyginis skaicius
-        - mano ciklas sugeneruoja ... 
-        4. - turi buti nelyginis skaicius
-           - pas mane nelyginis ...
-           5. - 
-
-
-//let kolLoginaTrisNelyginius = -1;
-//
-//for (let i = 0; i <= 10; i += 2) {
-//  random = Math.floor(Math.random() * 11);
-//  kolLoginaTrisNelyginius += 2;
-//}
-//
-//console.log(kolLoginaTrisNelyginius);
-
 
 /* 
 
@@ -43,11 +22,27 @@ Pasiūlymas: ciklo viduje susikurti kintamajį kuris apskaičiuos random reikšm
 Pasiūlymas: patikrinti ar nelyginis naudoti if() kiekvieno ciklo metu;
 
 5. kaip paskaičiuosi kiek nelyginių skaičių jau yra? 
-- kievieno ciklo metu pridėti vienetą prie kitamojo jei if'o sąlyga, kad tai nelyginis suveikia
+- kievieno ciklo metu pridėti vienetą prie kintamojo jei if'o sąlyga, kad tai nelyginis suveikia
 
 */
 
-while () {
-  random = Math.floor(Math.random() * 11)
-}
+let nelyginiuSkaiciuKiekis = 0;
+let random = 0;
 
+/* 
+  kintamasis % 2 === 0   kaip lyginis
+  kintamasis % 2 !== 0    kaip nelyginis
+
+*/
+
+/* while ciklas sukasi tol, kol nelyginiu skaiciu kiekis yra maziau arba lygu 3  */
+
+while (nelyginiuSkaiciuKiekis < 3) {
+  random = Math.floor(Math.random() * 11);
+
+  if (random % 2 !== 0) {
+    nelyginiuSkaiciuKiekis++;
+  }
+
+  console.log(random);
+}
