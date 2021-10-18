@@ -30,8 +30,8 @@ let nelyginiuSkaiciuKiekis = 0;
 let random = 0;
 
 /* 
-  kintamasis % 2 === 0   kaip lyginis
-  kintamasis % 2 !== 0    kaip nelyginis
+  kintamasis(siuo atveju random) % 2 === 0   kaip lyginis
+  kintamasis(siuo atveju random) % 2 !== 0    kaip nelyginis
 
 */
 
