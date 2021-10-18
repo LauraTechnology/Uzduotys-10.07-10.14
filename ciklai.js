@@ -132,32 +132,25 @@ for (let i = 0; i < 11; i++) {
 console.log("------12-------");
 // 12. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje).              Ciklą kartoti kol bus sugeneruoti trys nelyginiai skaičiai;
 
-let kolLoginaTrisNelyginius = -1;
-
-for (let i = 0; i <= 10; i += 2) {
-  random = Math.floor(Math.random() * 11);
-  kolLoginaTrisNelyginius += 2;
-}
-
-console.log(kolLoginaTrisNelyginius);
 
 
-//
-//random = Math.floor(Math.random() * 11);
-//
-//while (console.log(threeOddNumbers)) {
-//  random = Math.floor(Math.random() * 11);
-//}
 
 console.log("------13-------");
 // 13. console.log’e, naudojant ciklą atspausdinti PO PORĄ skirtingų atsitiktinių skaičių nuo 0 iki 10 (abu skaičiai vienoje eilutėje). Ciklą kartoti tol, kol neiškris abu vienodi skaičiai;
 
 random = Math.floor(Math.random() * 11);
 
+
+
+
+
+
 console.log("------14-------");
 // 14. console.log’e, naudojant ciklą atspausdinti PO PORĄ skirtingų atsitiktinių skaičių nuo 0 iki 10 (abu skaičiai vienoje eilutėje).             Skaičiuoti abiejų skaičių sumas skirtinguose kintamuosiuose. Ciklą kartoti tol, kol kiekviena iš sumų bus daugiau nei 100;
 
 random = Math.floor(Math.random() * 11);
+
+
 
 console.log("------15-------");
 // 15. console.log’e, naudojant ciklą atspausdinti po porą skirtingų atsitiktinių skaičių nuo 0 iki 10 (abu skaičiai vienoje eilutėje).                 Ciklą kartoti kol bus sugeneruota po tris arba daugiau nelyginių skaičių.

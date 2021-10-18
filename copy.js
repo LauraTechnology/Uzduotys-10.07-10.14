@@ -135,7 +135,7 @@ for (let i = 0; i < 5; i++) {
   }
   
   console.log("------12-------");
-  // 12. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje).              Ciklą kartoti kol bus sugeneruoti trys nelyginiai skaičiai;
+  // 12. console.log’e, naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Ciklą kartoti kol bus sugeneruoti trys nelyginiai skaičiai;
   
   for ( i = 0; i <= 10; i += 2) {
   
